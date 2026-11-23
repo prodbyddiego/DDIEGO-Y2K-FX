@@ -36,6 +36,8 @@ juce_add_plugin(DDIEGO_Y2K_FX
     PRODUCT_NAME "DDIEGO Y2K FX"
 )
 
+juce_generate_juce_header(DDIEGO_Y2K_FX)
+
 target_sources(DDIEGO_Y2K_FX PRIVATE
     Source/PluginProcessor.cpp
     Source/PluginEditor.cpp
